@@ -1,0 +1,56 @@
+.available-properties-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-image:url("https://www.beautifulhomes.asianpaints.com/interior-design-services/design-guide/_jcr_content/root/container/responsivegrid/responsivegrid_123_c/responsivegrid_498308749/teaser.coreimg.jpeg/1729593289626/living-room.jpeg");
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.design-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.design-button {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.design-button:hover {
+  transform: translateY(-5px);
+  background-color: #e0e0e0;
+}
+
+.side-banner {
+  margin-top: 30px;
+  text-align: center;
+  background-color: #ffe5e5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.side-banner h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.side-banner p {
+  font-size: 16px;
+  color: #555;
+}
+
+.side-banner img {
+  margin-top: 10px;
+  max-width: 100%;
+  border-radius: 10px;
+}

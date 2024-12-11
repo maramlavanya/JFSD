@@ -1,0 +1,83 @@
+/* src/pages/Signup.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-image: url(https://media.licdn.com/dms/image/C4D12AQFQq1J3u_1z1Q/article-cover_image-shrink_720_1280/0/1569869871939?e=2147483647&v=beta&t=X3_3mrDfj5MsQ1D8hx5eGPg3nCc5Gjk7aFpQxON0Zsk); /* Reference from the public folder */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .signup-form {
+    background: rgba(255, 255, 255, 0.8); /* White background with transparency */
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align:center;
+    width: 350px; /* Set width for the form */
+  }
+  
+  .signup-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .signup-form div {
+    margin-bottom: 15px;
+  }
+  
+  .signup-form label {
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .signup-form input {
+    width: 100%; /* Full width for input */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .signup-form button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full width for button */
+  }
+  
+  .signup-form button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .login-link {
+    margin-top: 10px; /* Add some space above the link */
+    text-align: center; /* Center the link */
+  }
+  
+  .nav-link {
+    color: #007BFF; /* Blue color for the link */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  /* For the phone number input */
+#phone-number {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+    box-sizing: border-box;
+  }
+  

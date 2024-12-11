@@ -1,0 +1,71 @@
+.low-cost-properties-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .how-it-works {
+    background-color: #f0f4ff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .how-it-works h2 {
+    color: #003399;
+    margin-bottom: 16px;
+  }
+  
+  .steps {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .step h3 {
+    color: #003399;
+    margin: 0;
+  }
+  
+  .step p {
+    margin: 0;
+  }
+  
+  .step-description {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .eligibility-criteria {
+    margin-top: 40px;
+    background-color: #f4e7ff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .eligibility-criteria h2 {
+    color: #800080;
+    margin-bottom: 16px;
+  }
+  
+  .criteria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .criteria-item {
+    flex: 1 1 200px;
+    text-align: center;
+  }
+  
+  .criteria-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+  }
+  
+  .criteria-item p {
+    margin: 0;
+    color: #333;
+  }
+  

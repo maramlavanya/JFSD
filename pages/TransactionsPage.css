@@ -1,0 +1,88 @@
+/* src/pages/TransactionsPage.css */
+
+/* Container for the entire page */
+.transactions-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  /* Container for the list of transactions */
+  .transactions-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  /* Style for each individual transaction */
+  .transaction-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: relative;
+  }
+  
+  /* Hover effect for the transaction items */
+  .transaction-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style for the transaction image */
+  .transaction-item .transaction-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  /* Optional: If you want to use the background image */
+  .transaction-item.bg-image {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbRFgpRrtcy6cYc5q9FKxHjpRKMDMTmnn-aA&s'); /* Default background image */
+    background-size: cover;
+    background-position: center;
+    height: 250px; /* Adjust height of the background */
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  /* Style for the transaction details */
+  .transaction-details {
+    text-align: center;
+  }
+  
+  .transaction-details h3 {
+    font-size: 1.25rem;
+    margin: 10px 0;
+  }
+  
+  .transaction-details p {
+    font-size: 1rem;
+    color: #666;
+  }
+  

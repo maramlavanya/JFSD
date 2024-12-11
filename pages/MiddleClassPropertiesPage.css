@@ -1,0 +1,43 @@
+.middle-class-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-banner {
+    background-image: url('https://www.beautifulhomes.asianpaints.com/content/dam/asianpaintsbeautifulhomes/202411/indoor-houseplants-to-purify-the-air-in-your-home-this-winter/title-living-room-with-indoor-plants.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .banner-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .banner-subtitle {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+  
+  .about-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .about-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  

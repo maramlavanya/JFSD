@@ -1,0 +1,40 @@
+.home-design-ideas {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .home-design-ideas h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .home-design-ideas p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .design-gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .design-item {
+    max-width: 350px; /* Increase the max width */
+    text-align: center;
+  }
+  
+  .design-item img {
+    width: 100%;
+    height: 300px; /* Set a fixed height for larger images */
+    object-fit: cover; /* Ensures the image covers the space without distorting */
+    border-radius: 8px;
+  }
+  
+  .design-item h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #333;
+  }
+  

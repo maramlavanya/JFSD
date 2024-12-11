@@ -1,0 +1,112 @@
+.user-dashboard {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Full Page Header with Background Image */
+.dashboard-header {
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('https://static.asianpaints.com/content/dam/asianpaintsbeautifulhomes/magazine/stores/banners/store-3d/one-stop-shop-pc.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard-title {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Add subtle shadow */
+}
+
+.dashboard-subtitle {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6); /* Add subtle shadow */
+}
+
+/* Navigation Bar */
+.dashboard-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 20px 0;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.dashboard-nav ul li {
+    margin: 0 15px;
+}
+
+/* Styling for Navigation Button Links */
+.dashboard-nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff; /* Default blue button color */
+    transition: all 0.3s ease;
+}
+
+/* Red button for "About" */
+.dashboard-nav ul li a.about-btn {
+    background-color: red; /* Red color for "About" */
+}
+
+/* Hover Effect for Buttons */
+.dashboard-nav ul li a:hover {
+    background-color: #ffa500; /* Accent color */
+    color: #fff;
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+/* Property Categories Section */
+.property-categories {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.property-categories h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.property-list {
+    list-style: none;
+    padding: 0;
+}
+
+.property-list li {
+    margin: 10px 0;
+}
+
+.property-list li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.property-list li a:hover {
+    color: #0056b3; /* Darker blue */
+}

@@ -1,0 +1,26 @@
+/* src/pages/Home.css */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://static.asianpaints.com/content/dam/asianpaintsbeautifulhomes/auto-appointment-dam/store-banner-desktop.jpg.transform/bh-ids-banner_image/image.webp'); /* Adjust the path as necessary */
+  background-size: cover;
+  background-position: center;
+  color: white; /* Ensure text is visible on the background */
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 60px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color:rgb(53, 13, 232);
+  border-radius:10px;
+}
+.p{
+  color:black;
+  font-size:30px;
+}

@@ -1,0 +1,43 @@
+.small-designs {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .small-designs h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .small-designs p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .design-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .design-item {
+    width: 250px;
+    text-align: center;
+  }
+  
+  .design-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .design-item h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #333;
+  }
+  

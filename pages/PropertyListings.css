@@ -1,0 +1,33 @@
+/* src/pages/PropertyListings.css */
+.property-listings-container {
+  padding: 50px;
+  text-align: center;
+}
+
+.property-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.property-item {
+  background-color: #f8f8f8;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 5px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+  /* Smaller left border */
+  border-left: 3px solid #4CAF50; /* Adjust thickness and color as needed */
+}
+
+.property-item h3 {
+  font-size: 1.5em;
+}
+
+.property-item p {
+  font-size: 1.2em;
+  color: #555;
+}

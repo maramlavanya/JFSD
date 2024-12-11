@@ -1,0 +1,56 @@
+.property-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .property-image {
+    width: 150px;
+    height: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 16px;
+  }
+  
+  .property-details {
+    flex: 1;
+  }
+  
+  .property-details h3 {
+    margin: 0 0 8px;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .property-details p {
+    margin: 4px 0;
+    color: #666;
+  }
+  
+  .property-status {
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
+  .property-status.published {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .property-status.sold {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  .property-status.pending {
+    background-color: #fff3cd;
+    color: #856404;
+  }
+  
